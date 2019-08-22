@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        {% for page in site.pages %} {% if page.title %}
+        <div class="pagediv col-sm">
+            <a href="{{ page.url | prepend: site.baseurl }}/">{{
+                page.title
+            }}</a>
+        </div>
+        {% endif %} {% endfor %}
+    </div>
+</div>

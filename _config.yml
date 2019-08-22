@@ -13,14 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Bonbisu
+title: F.Costa
 name: bonbisu
 email: fernando.costa30@fatec.sp.gov.br
-description: "Desenvolvedor de software |
-Cursando Análise e Desenvolvimento de Sistemas pela Fatec | Python - Node.JS - C - SQL - Git - API's | Modelagem 3d com Blender, Sketchup e Vray"
+description: "Fernando Costa - Desenvolvedor de Software"
 # "Desenvolvedor de software Cursando Análise e Desenvolvimento de Sistemas pela Fatec. Tenho conhecimentos em Python, JavaScript(Node.JS) e C, frameworks web (Django, React, Bootstrap), SQL, API's, Git; segurança da informação e gestão de identidades; modelagem 3d com Blender, Sketchup e Vray.""
-baseurl: '/blog' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: bonbisu
 
