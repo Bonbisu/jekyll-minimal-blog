@@ -8,13 +8,16 @@ html,
 body {
     margin: 0;
     padding: 0;
+    /* max-width: 100%; */
+    /* overflow: hidden; */
 }
+
 html {
     font-family: "Source Code Pro", 'Courier New', Courier, monospace;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.6;
-    background: url(../assets/codesfoque2.png); 
+    background: url(../assets/codesfoque2.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -91,7 +94,7 @@ a {
 .masthead-title {
     font-family: 'Press Start 2P', cursive;
     text-transform: uppercase;
-    font-size: 70px;
+    /* font-size: 70px; */
     text-shadow: 0px 0px 14px #424059;
 }
 
@@ -103,11 +106,11 @@ a:focus {
 }
 
 
-div.container {    
+div.container {
     max-width: 700px;
     text-align: center;
     height: 0px;
-} 
+}
 
 div.pagediv {
     /* width: 140px;
@@ -121,6 +124,12 @@ div.pagediv {
 .container-blog {
     margin-bottom: 77px;
 }
+
 .content-list {
     margin: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
